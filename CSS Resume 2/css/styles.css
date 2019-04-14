@@ -8,7 +8,7 @@
 /* Global styles
 ------------------------------------*/
 body {
-
+  font-family: 'Oxygen', sans-serif;
 }
 
 a:hover {
@@ -24,8 +24,16 @@ header, footer {
 
 header h1, header h2 {
   color: #EDF2F4;
+  font-family: 'Fjalla One', sans-serif;
 }
 
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 60px;
+}
 
 /* Hobbies
 ------------------------------------*/
