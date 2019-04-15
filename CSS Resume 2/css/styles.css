@@ -37,14 +37,16 @@ a:hover {
 .col-narrow {
   width: 30%;
   float: left;
-  min-height: 145px;
 }
 
 .col-wide {
   width: 70%;
   float: left;
   padding-left: 20px;
-  min-height: 145px;
+}
+
+.marginzero {
+  margin: 0;
 }
 /* Header & Footer
 ------------------------------------*/
@@ -86,8 +88,16 @@ h2 {
   background: #9ab9ff;
 }
 
+.marginzero.hobbies {
+  margin-bottom: 35px;
+}
+
 /* Education
 ------------------------------------*/
 .education {
   background: #9ab9ff;
+}
+
+p + h3 {
+  margin-top: 35px;
 }
